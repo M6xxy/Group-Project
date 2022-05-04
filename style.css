@@ -109,7 +109,7 @@ body {
       /*footer start*/
       footer {
         background-color: black;
-        margin-top: 200px;
+        min-height: calc(100vh - 90vh);
           }
 
       .bottom-navbar {
@@ -142,9 +142,11 @@ body {
       }
       .contentMain {
           border-style: solid;
-          width: 1860px;
-          height: 500px;
+          max-width: 1875px;
+          min-width: 1875px;
+          min-height: 420px;
           margin-top: 10px;
+          margin-bottom: 10px;
           padding: 10px;
           background-color: #91b36d;
       }

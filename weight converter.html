@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f72766ccef.js" crossorigin="anonymous"></script>
+    <title>Wellness</title>
+</head>
+<body>
+<!--navbar start-->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="benefits-of-a-healthy-living.html">Benefits of a Healthy Living</a>
+    <a href="strength-exercise.html">Strength Exercise</a>
+    <a href="cardio.html">Cardio</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="recipe-examples.html">Recipe Examples</a>
+    <a href="weight-converter.html">Weight Converter</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <h1>lbs to kgs & kgs to lbs </h1>
+	<p>
+			How much to convert?:<input type="text" name="total" id="total"><br>
+			<input type="button" onclick="addNumbers()" value="lbs to kgs">
+			<input type="button" onclick="KgsLbs()" value="kgs to lbs">
+			
+			<p id="Weight"></p> 
+		</p>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  function addNumbers()
+		{
+			var poundDollar = 0.453592; 
+			var userWeight = 0.0;
+			var Weight = 0.0;
+			userWeight = parseFloat(document.getElementById("total").value);
+			
+			
+			var totalWeight = poundDollar * userWeight;
+			document.getElementById("Weight").innerHTML = totalWeight + "Kgs";
+		
+		}
+			function KgsLbs()
+		{
+			var KgsLbs = 2.205; 
+			var userWeight = 0.0;
+			var Weight = 0.0;
+			userMoney = parseFloat(document.getElementById("total").value);
+			
+			
+			var totalWeight = dollarPound * userWeight;
+			document.getElementById("Weight").innerHTML = totalWeight + "Lbs";
+		}
+  </script>
+
+<!--navbar end-->
+
+
+
+
+
+<!--footer start-->
+<footer>
+<div class="footer">
+  <div class="bottom-navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="benefits-of-a-healthy-living.html">Benefits of a Healthy Living</a>
+    <a href="strength-exercise.html">Strength Exercise</a>
+    <a href="cardio.html">Cardio</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="recipe-examples.html">Recipe Examples</a>
+    <a href="weight-converter.html">Weight Converter</a>
+    <a href="quiz.html">Quiz</a>
+  </div>
+
+  <ul class="background-black">
+<li class="footer-text"><i class="fas fa-phone"></i> Contact No: 0131 362 7563</li>
+<li class="footer-text"><i class="far fa-envelope"></i> Email: Wellness@gmail.com</li>
+<li class="footer-text copyright">&copy;All Rights Reserved Wellness</li>
+  </ul>
+      </div>
+      </footer>
+<!--footer end-->
+</body>
+</html>

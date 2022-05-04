@@ -142,6 +142,7 @@ body {
       }
       .contentMain {
           min-height: calc(100vh - 90px);
+          min-width: 800px;
           border-style: solid;
           margin-top: 10px;
           margin-bottom: 10px;

@@ -29,8 +29,8 @@
 			How much to convert?:<input type="text" name="total" id="total"><br>
 			<input type="button" onclick="addNumbers()" value="lbs to kgs">
 			<input type="button" onclick="KgsLbs()" value="kgs to lbs">
-			
-			<p id="Weight"></p> 
+
+			<p id="Weight"></p>
 		</p>
 
   <script>
@@ -44,30 +44,30 @@
   }
   function addNumbers()
 		{
-			var LbsKgs = 0.453592; 
+			var LbsKgs = 0.453592;
 			var userWeight = 0.0;
 			var totalWeight = 0.0;
 			userWeight = parseFloat(document.getElementById("total").value);
-			
-			
+
+
 			var totalWeight = LbsKgs * userWeight;
 			document.getElementById("Weight").innerHTML = totalWeight + "Kgs";
-		
+
 		}
 			function KgsLbs()
 		{
-			var KgsLbs = 2.205; 
+			var KgsLbs = 2.205;
 			var userWeight = 0.0;
 			var totalWeight = 0.0;
 			userMoney = parseFloat(document.getElementById("total").value);
-			
-			
+
+
 			var totalWeight = KgsLbs * userWeight;
 			document.getElementById("Weight").innerHTML = totalWeight + "Lbs";
 		}
   </script>
 <div id="column1">
-	<img id="imgExerB" src="Images/Weight.jfif" alt="Scales Image" width="100" height="100">
+	<img  src="Images/Weight.jfif" alt="Scales Image" width="100" height="100">
 	</div>
 <!--navbar end-->
 

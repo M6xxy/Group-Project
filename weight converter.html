@@ -44,13 +44,13 @@
   }
   function addNumbers()
 		{
-			var poundDollar = 0.453592; 
+			var LbsKgs = 0.453592; 
 			var userWeight = 0.0;
-			var Weight = 0.0;
+			var totalWeight = 0.0;
 			userWeight = parseFloat(document.getElementById("total").value);
 			
 			
-			var totalWeight = poundDollar * userWeight;
+			var totalWeight = LbsKgs * userWeight;
 			document.getElementById("Weight").innerHTML = totalWeight + "Kgs";
 		
 		}
@@ -58,15 +58,17 @@
 		{
 			var KgsLbs = 2.205; 
 			var userWeight = 0.0;
-			var Weight = 0.0;
+			var totalWeight = 0.0;
 			userMoney = parseFloat(document.getElementById("total").value);
 			
 			
-			var totalWeight = dollarPound * userWeight;
+			var totalWeight = KgsLbs * userWeight;
 			document.getElementById("Weight").innerHTML = totalWeight + "Lbs";
 		}
   </script>
-
+<div id="column1">
+	<img src="Group-Project/Weight.jfif" alt="Scales image" style="width:50%">
+	</div>
 <!--navbar end-->
 
 

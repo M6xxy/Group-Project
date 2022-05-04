@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f72766ccef.js" crossorigin="anonymous"></script>
+    <title>Wellness</title>
+</head>
+<body>
+<!--navbar start-->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="benefits-of-a-healthy-living.html">Benefits of a Healthy Living</a>
+    <a href="strength-exercise.html">Strength Exercise</a>
+    <a href="cardio.html">Cardio</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="recipe-examples.html">Recipe Examples</a>
+    <a href="weight-converter.html">Weight Converter</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  //question 1
+  var answer = "b";
+			var userAnswer = prompt("What has exercise also been proven to do? Is it, a. make you rich b. help you cook better c. Improve brain function");
+			
+			userAnswer = userAnswer.toLowerCase();
+			
+			while (userAnswer != "a" && userAnswer != "b" && userAnswer != "c" )
+			{
+				window.alert("Invalid - a,b,c only. Try again");
+				userAnswer = prompt("What has exercise also been proven to do? Is it, a. make you rich b. help you cook better c. Improve brain function");
+				userAnswer = userAnswer.toLowerCase();
+			}
+			if (userAnswer == answer)
+			{
+				window.alert("Correct");
+			}
+			else
+			{
+				window.alert("Inorrect, the answer is b");
+			}
+			//question 2
+			
+			var answer = "b";
+			var userAnswer = prompt("What is the best split in healthy and unhealthy foods?Is it, a. 50 -50 b. 30 - 70 c. 80 - 20");
+			
+			userAnswer = userAnswer.toLowerCase();
+			
+			while (userAnswer != "a" && userAnswer != "b" && userAnswer != "c" )
+			{
+				window.alert("Invalid - a,b,c only. Try again");
+				userAnswer = prompt("What is the best split in healthy and unhealthy foods? Is it, a. 50 -50 b. 30 - 70 c. 80 - 20");
+				userAnswer = userAnswer.toLowerCase();
+			}
+			if (userAnswer == answer)
+			{
+				window.alert("Correct");
+			}
+			else
+			{
+				window.alert("Inorrect, the answer is b");
+			}
+			
+			//question 3
+			
+			var answer = "b";
+			var userAnswer = prompt("What type of activity would help boost strength? Is it, a. sleeping b. push-ups c. watching TV");
+			
+			userAnswer = userAnswer.toLowerCase();
+			
+			while (userAnswer != "a" && userAnswer != "b" && userAnswer != "c" )
+			{
+				window.alert("Invalid - a,b,c only. Try again");
+				userAnswer = prompt("What type of activity would help boost strength? Is it, a. sleeping b. push-ups c. watching TV");
+				userAnswer = userAnswer.toLowerCase();
+			}
+			if (userAnswer == answer)
+			{
+				window.alert("Correct");
+			}
+			else
+			{
+				window.alert("Inorrect, the answer is b");
+			}
+      	//question 4
+			
+			var answer = "b";
+			var userAnswer = prompt("What percentage of energy are carbohydrates responsible for? Is it, a. 65% b. 55% c. 75%");
+			
+			userAnswer = userAnswer.toLowerCase();
+			
+			while (userAnswer != "a" && userAnswer != "b" && userAnswer != "c" )
+			{
+				window.alert("Invalid - a,b,c only. Try again");
+				userAnswer = prompt("What percentage of energy are carbohydrates responsible for? Is it, a. 65% b. 55% c. 75%");
+				userAnswer = userAnswer.toLowerCase();
+			}
+			if (userAnswer == answer)
+			{
+				window.alert("Correct");
+			}
+			else
+			{
+				window.alert("Inorrect, the answer is b");
+			}
+      	//question 5
+			
+			var answer = "b";
+			var userAnswer = prompt("What is the best source of vitamins? Is it, a. meats b. fruit and veg c. biscuits");
+			
+			userAnswer = userAnswer.toLowerCase();
+			
+			while (userAnswer != "a" && userAnswer != "b" && userAnswer != "c" )
+			{
+				window.alert("Invalid - a,b,c only. Try again");
+				userAnswer = prompt("What is the best source of vitamins? Is it, a. meats b. fruit and veg c. biscuits");
+				userAnswer = userAnswer.toLowerCase();
+			}
+			if (userAnswer == answer)
+			{
+				window.alert("Correct");
+			}
+			else
+			{
+				window.alert("Inorrect, the answer is b");
+			}
+  </script>
+
+<!--navbar end-->
+
+
+
+
+
+<!--footer start-->
+<footer>
+<div class="footer">
+  <div class="bottom-navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="benefits-of-a-healthy-living.html">Benefits of a Healthy Living</a>
+    <a href="strength-exercise.html">Strength Exercise</a>
+    <a href="cardio.html">Cardio</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="recipe-examples.html">Recipe Examples</a>
+    <a href="weight-converter.html">Weight Converter</a>
+    <a href="quiz.html">Quiz</a>
+  </div>
+
+  <ul class="background-black">
+<li class="footer-text"><i class="fas fa-phone"></i> Contact No: 0131 362 7563</li>
+<li class="footer-text"><i class="far fa-envelope"></i> Email: Wellness@gmail.com</li>
+<li class="footer-text copyright">&copy;All Rights Reserved Wellness</li>
+  </ul>
+      </div>
+      </footer>
+<!--footer end-->
+</body>
+</html>

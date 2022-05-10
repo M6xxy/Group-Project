@@ -161,7 +161,6 @@ width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
-  /* For tablets: */
   .flex-container{
     display: flex;
     flex-direction: column;
@@ -179,11 +178,31 @@ width: 100%;
         padding: 1vw;
       }
 
+      .center {
+        text-align: center;
+      }
+
       .para-position-1{
         text-align: center;
         padding-top: 150px;
         width: 80%;
         margin: auto;
+      }
+
+      @media only screen and (max-width: 800px) {
+        .para-position-1{
+          text-align: center;
+          padding-top: 20px;
+          width: 80%;
+          margin: auto;
+        }
+
+        .responsive-image {
+          width: 80%;
+          height: auto;
+          padding: 1vw;
+          padding-top: 8vw;
+        }
       }
 
       .para-position-2{

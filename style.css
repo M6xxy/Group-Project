@@ -212,6 +212,10 @@ width: 100%;
         margin: auto;
       }
 
+      .recipe-para {
+        font-size: 2vw;
+      }
+
       .title {
         font-size: 2vw;
         text-align: center;
@@ -221,6 +225,11 @@ width: 100%;
       .border {
         border-style: solid;
         margin: 1em;
+      }
+
+      .margin-top-bottom {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
       }
 
        /*main section end*/

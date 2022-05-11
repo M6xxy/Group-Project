@@ -1,5 +1,5 @@
 body {
-    background-color: #A0CC70;
+    background-color: #9e2929;
     font-family: 'Lora', serif;
     }
 
@@ -10,7 +10,7 @@ body {
      /*nav bar start */
      .topnav {
         overflow: hidden;
-        background-color: #003303;
+        background-color: #670505;
         min-width: 1100px;
       }
 
@@ -25,7 +25,7 @@ body {
       }
 
       .active {
-        background-color: darkgreen;
+        background-color: rgb(222, 10, 10);
         color: white;
       }
 
@@ -68,7 +68,7 @@ body {
       }
 
       .topnav a:hover, .dropdown:hover .dropbtn {
-        background-color: #555;
+        background-color: rgb(52, 0, 0);
         color: white;
       }
 
@@ -215,7 +215,7 @@ width: 100%;
       .title {
         font-size: 2vw;
         text-align: center;
-        color: #003303;
+        color: #740a0a;
       }
 
       .border {

@@ -13,79 +13,83 @@
 <body>
 <!--navbar start-->
 <div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Home</a>
+    <a href="index.html">Home</a>
     <a href="benefits-of-a-healthy-living.html">Benefits of a Healthy Living</a>
     <a href="strength-exercise.html">Strength Exercise</a>
     <a href="cardio.html">Cardio</a>
     <a href="nutrition.html">Nutrition</a>
     <a href="recipe-examples.html">Recipe Examples</a>
-    <a href="weight-converter.html">Weight Converter</a>
+    <a href="weight-converter.html" class="active">Weight Converter</a>
     <a href="quiz.html">Quiz</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
-  <h1>lbs to kgs & kgs to lbs </h1>
-	<p>
-			How much to convert?:<input type="text" name="total" id="total"><br>
-			<input type="button" onclick="addNumbers()" value="lbs to kgs">
-			<input type="button" onclick="KgsLbs()" value="kgs to lbs">
-
-			<p id="Weight"></p>
-		</p>
-
   <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
     }
-  }
-  function addNumbers()
-		{
-			var LbsKgs = 0.453592;
-			var userWeight = 0.0;
-			var totalWeight = 0.0;
-			userWeight = parseFloat(document.getElementById("total").value);
 
-
-			var totalWeight = LbsKgs * userWeight;
-			document.getElementById("Weight").innerHTML = totalWeight + "Kgs";
-
-		}
-			function KgsLbs()
-		{
-			var KgsLbs = 2.205;
-			var userWeight = 0.0;
-			var totalWeight = 0.0;
-			userMoney = parseFloat(document.getElementById("total").value);
-
-
-			var totalWeight = KgsLbs * userWeight;
-			document.getElementById("Weight").innerHTML = totalWeight + "Lbs";
-		}
-  </script>
-<div id="column1">
-	<img  src="Images/Weight.jfif" alt="Scales Image" width="100" height="100">
-	</div>
-<!--navbar end-->
-
-
-
-
+    function addNumbers()
+      {
+        var LbsKgs = 0.453592;
+        var userWeight = 0.0;
+        var totalWeight = 0.0;
+        userWeight = parseFloat(document.getElementById("total").value);
+  
+  
+        var totalWeight = LbsKgs * userWeight;
+        document.getElementById("Weight").innerHTML = totalWeight + "Kgs";
+  
+      }
+        function KgsLbs()
+      {
+        var KgsLbs = 2.205;
+        var userWeight = 0.0;
+        var totalWeight = 0.0;
+        userMoney = parseFloat(document.getElementById("total").value);
+  
+  
+        var totalWeight = KgsLbs * userWeight;
+        document.getElementById("Weight").innerHTML = totalWeight + "Lbs";
+      }
+    </script>
+  <!--navbar end-->
+	
+  <div class="border">
+    <div class="title">
+      <h1>lbs to kgs & kgs to lbs </h1>
+    </div>
+  
+    <div class="row">
+      <div class="flex-container">
+    <div class="col-6 centered"><p class="para-position-1 recipe-weight-para">How much to convert?:<br><input type="text" name="total" id="total"><br>
+			<input type="button" onclick="addNumbers()" value="lbs to kgs">
+			<input type="button" onclick="KgsLbs()" value="kgs to lbs"></p>
+      
+      <p class="para-position-1" id="Weight"></p>
+    </div>
+    
+      <div class="col-6"><div class="center"> <img class="responsive-image" src="Images/Weight.jfif" alt="Scales Image"></div></div>
+      </div>
+  </div>
+  </div>
 
 <!--footer start-->
 <footer>
 <div class="footer">
   <div class="bottom-navbar">
-    <a href="index.html" class="active">Home</a>
+    <a href="index.html">Home</a>
     <a href="benefits-of-a-healthy-living.html">Benefits of a Healthy Living</a>
     <a href="strength-exercise.html">Strength Exercise</a>
     <a href="cardio.html">Cardio</a>
     <a href="nutrition.html">Nutrition</a>
     <a href="recipe-examples.html">Recipe Examples</a>
-    <a href="weight-converter.html">Weight Converter</a>
+    <a href="weight-converter.html" class="active">Weight Converter</a>
     <a href="quiz.html">Quiz</a>
   </div>
 

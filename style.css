@@ -278,8 +278,7 @@ width: 100%;
           min-height: 100%;
           min-width: 1100px;
           border-style: solid;
-          margin-top: 10px;
-          margin-bottom: 10px;
+          margin:1em;
           padding: 10px;
           background-color: #9e2929;
       }
@@ -348,4 +347,3 @@ width: 100%;
        padding: 20px;
        padding-bottom: 50px;
      }
-     

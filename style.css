@@ -178,6 +178,12 @@ width: 100%;
         padding: 1vw;
       }
 
+      .responsive-image-2 {
+        width: 40%;
+        height: auto;
+        padding: 1vw;
+      }
+
       .center {
         text-align: center;
       }

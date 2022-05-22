@@ -184,6 +184,10 @@ width: 100%;
         padding: 1vw;
       }
 
+      .padding-top-strength-txt {
+        padding-top: 60px;
+      }
+
       .center {
         text-align: center;
       }
